@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Index";
+    ViewBag.Description = "Home Page";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-md-5">
+        <div class="box-body">
+            <div class="row" id="CustomerSalesTransactionResults">
+
+            </div>
+        </div>
+    </div>
+   
+</div>
+<script src="~/Content/js/plugins/jquery/jquery-2.2.4.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        debugger;
+        $.ajax({
+            type: 'POST',
+            url: '@Url.Content("~/Home/GetSalesTransction")',            
+            success: function (data) {
+                console.log(data)
+                $('#CustomerSalesTransactionResults').innerHTML = data;
+            }
+        });
+    });
+</script>
