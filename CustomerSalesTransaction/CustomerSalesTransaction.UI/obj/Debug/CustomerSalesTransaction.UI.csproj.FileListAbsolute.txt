@@ -70,3 +70,5 @@ G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.UI\bin\Microsoft.Pr
 G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.UI\bin\Microsoft.Practices.Unity.Mvc.xml
 G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.UI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
 G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.UI\bin\EntityFramework.xml
+G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.UI\bin\EntityFramework.SqlServer.dll
+G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.UI\bin\EntityFramework.SqlServer.xml

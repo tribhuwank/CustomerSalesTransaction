@@ -1,0 +1,13 @@
+﻿@model IEnumerable<CustomerSalesTransaction.UI.Models.ProductDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Products</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@Html.Raw(ViewBag.HtmlOutput)

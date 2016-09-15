@@ -99,7 +99,7 @@ namespace CustomerSalesTransaction.Repo
         {
             var task = new Task<string>(() =>
             {
-                dynamic result =Context.Database.SqlQuery<string>("EXEC GetSalesTransactions");
+                dynamic result =Context.Database.SqlQuery<string>("EXEC dbo].[GetSalesTransactions]");
                 return Convert.ToString(result);
             });
             task.Start();

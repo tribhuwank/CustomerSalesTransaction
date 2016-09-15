@@ -54,3 +54,4 @@ G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.Common\bin\Debug\Mi
 G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.Common\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.Common\obj\Debug\CustomerSalesTransaction.Common.dll
 G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.Common\obj\Debug\CustomerSalesTransaction.Common.pdb
+G:\Project\CustomerSalesTransaction\CustomerSalesTransaction.Common\obj\Debug\CustomerSalesTransaction.Common.csprojResolveAssemblyReference.cache
